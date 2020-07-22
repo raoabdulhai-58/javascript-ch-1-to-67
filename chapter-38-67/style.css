@@ -1,0 +1,47 @@
+/* .phone img{
+  width: 300px;
+  height: 400px;
+  border: 1px solid green;
+}
+.phone{
+   display: flex;
+   text-align: center;
+}
+.hidden{
+  display: none;
+}
+ button{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+} */
+.main-img img{
+   width: 300px;
+   height: 200px;
+   cursor: pointer;
+}
+.main-img{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.modal{
+    position: absolute;
+    /* background-color: grey; */
+    width: 600px;
+    height: 400px;
+    left: 28%;
+    top: 150px;
+    
+}
+#modal-img{
+  width: 600px;
+  height: 400px;
+  
+}
+.hidden{
+  display: none;
+}
+.show{
+  display: block;
+}
